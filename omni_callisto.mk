@@ -20,7 +20,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, vendor/omni/config/gsm.mk)
 
 # Overrides
-PRODUCT_NAME := full_callisto
+PRODUCT_NAME := omni_callisto
 PRODUCT_DEVICE := callisto
 PRODUCT_BRAND := Samsung
 PRODUCT_MODEL := GT-I5510
