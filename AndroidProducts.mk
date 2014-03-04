@@ -26,4 +26,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_callisto.mk
+    $(LOCAL_DIR)/omni_callisto.mk

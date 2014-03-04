@@ -15,6 +15,10 @@
 # Inherit device specific files
 $(call inherit-product, device/samsung/callisto/device_callisto.mk)
 
+# Inherit from our custom product configuration
+$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/omni/config/gsm.mk)
+
 # Overrides
 PRODUCT_NAME := full_callisto
 PRODUCT_DEVICE := callisto
@@ -22,3 +26,6 @@ PRODUCT_BRAND := Samsung
 PRODUCT_MODEL := GT-I5510
 PRODUCT_MANUFACTURER := Samsung
 PRODUCT_CHARACTERISTICS := phone
+
+PRODUCT_RELEASE_NAME := Galaxy551
+PRODUCT_VERSION_DEVICE_SPECIFIC := -GT-I5510

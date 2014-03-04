@@ -21,4 +21,4 @@
 # function: add_lunch_combo generic-eng
 
 
-add_lunch_combo cm_callisto-userdebug
+add_lunch_combo omni_callisto-userdebug
